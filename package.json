@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node --esm src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/prompt-sync": "^4.2.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
