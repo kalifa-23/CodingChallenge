@@ -31,9 +31,31 @@ The problems covered are:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/YOUR-USERNAME/ia-solutions-ts.git
 cd ia-solutions-ts
+```
+### 2. Install Dependency
+```bash
+npm install -g typescript ts-node
+```
+### 3. Run the solutions
+```bash
+ts-node solutions.ts
+```
+
+## Project Structure
+📂 Project Structureia-solutions-ts/
+│
+├── solutions.ts    # TypeScript source code with problem solutions
+├── README.md       # Project documentation
+└── package.json    # (optional) if you want to add local TypeScript config
+
+##Author
+Abubakar Sadiq Harun
+GitHub: @Kalifa-23
+
+
