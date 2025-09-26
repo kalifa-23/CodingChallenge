@@ -54,7 +54,7 @@ ts-node solutions.ts
 ├── README.md       # Project documentation
 └── package.json    # (optional) if you want to add local TypeScript config
 
-##Author
+###Author
 Abubakar Sadiq Harun
 GitHub: @Kalifa-23
 
